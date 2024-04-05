@@ -6,9 +6,11 @@
   import Home from './routes/home'
   import Profile from './routes/profile'
 
+
   function App() {
     const { currentUser } = useContext(AuthContext)
     const navigate = useNavigate()
+
 
     // NOTE: console log for testing purposes
     console.log('User:', !!currentUser);
